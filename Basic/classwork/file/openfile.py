@@ -1,0 +1,5 @@
+bio=open("srimathi.txt","w")
+print(bio.name)
+bio.write("This is a core python class")
+bio.close()
+print(bio.writable)

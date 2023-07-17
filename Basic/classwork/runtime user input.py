@@ -1,0 +1,10 @@
+name=input("enter the name")
+print(name)
+std=int(input("enter the class"))
+print(std)
+
+X=int(input("enter the value x"))
+Y=int(input("enter the value y"))
+print(X)
+print(Y)
+print(X+Y)

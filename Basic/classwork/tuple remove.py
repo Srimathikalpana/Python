@@ -1,0 +1,5 @@
+a=('sri','mathi','kalpana','pm')
+b=list(a)
+b.remove('mathi')
+a=tuple(b)
+print(a)
