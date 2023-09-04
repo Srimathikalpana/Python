@@ -1,5 +1,5 @@
 from app import *
-print('welcome!')
+print('Welcome!')
 
 while True :
     print('1.New policy\n2.Update policy\n3.View all existing polcies\n4.Read policy details\n5.Delete policy\n6.Exit')
@@ -15,7 +15,7 @@ while True :
     elif operation==3:
         view()
     elif operation==5:
-        policynumber=input('Enter thr policy number to delete')
+        policynumber=int(input('Enter thr policy number to delete'))
         delete(policynumber)
     else:
         print("Invalid operation")

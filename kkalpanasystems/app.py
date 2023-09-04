@@ -58,7 +58,7 @@ def update(policynumber):
     #policynumber=int(input('enter ur policy no.'))
     for i in range(len(mypolicy)):
         if mypolicy[i].number==policynumber:
-            question=input('what would u like to update in ur existing policy')
+            question=input('what would u like to update in ur existing policy "nominee"/"sumassure"/"members"')
             if question=='nominee':
                 change=input('enter the name of new nominee')
                 mypolicy[i].nominee=change
@@ -109,7 +109,7 @@ def delete(policynumber):
         if mypolicy[s].number==policynumber:
             position=s
             break
-    if position!=-1:
+    if position!= -1:
         mypolicy.pop(position)
         writefile(mypolicy)
     else:

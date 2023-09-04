@@ -77,5 +77,5 @@ def delete(productname):
 #update('coriander powder')
 #create()
 #delete("chilli powder")
-view()
+#view()
 

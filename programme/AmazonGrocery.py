@@ -2,7 +2,7 @@ from list import *
 print("Welcome to Amazon grocery")
 
 while True:
-    print("1. New Stock\n2. Update existing\n3.Delete\n4.View all\n5. Exit")
+    print("1. New Stock\n2. Update existing\n3. Delete\n4. View all\n5. Exit")
     operation=int(input("Enter the number to perform respective process "))
     if operation==1:
         create()
