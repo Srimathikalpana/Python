@@ -10,7 +10,7 @@ while True :
         policynumber=int(input("Enter the policy number to update"))
         update(policynumber)
     elif operation==4:
-        policynumber=int(input("Enter the policy number to update"))
+        policynumber=int(input("Enter the policy number to read"))
         read(policynumber)
     elif operation==3:
         view()
